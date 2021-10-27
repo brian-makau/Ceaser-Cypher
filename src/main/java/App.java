@@ -2,6 +2,9 @@ package CeaserCipher;
 
 import java.util.Scanner;
 
+import static CeaserCipher.Decryption.decrypt;
+import static CeaserCipher.Encryption.encrypt;
+
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
