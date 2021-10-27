@@ -16,11 +16,9 @@ public class App {
         int shiftKey = scanner.nextInt();
 
         String result = (encryption(userInput, shiftKey));
-        System.out.println("Here is your result");
-        System.out.println(result);
+        System.out.println("Here is your result >> " + result);
 
         String deciphered = (decryption(result, shiftKey));
-        System.out.println("This is your decrypted text");
-        System.out.println(deciphered);
+        System.out.println("This is your decrypted text >> " + deciphered);
     }
 }
