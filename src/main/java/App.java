@@ -2,8 +2,8 @@ package CeaserCipher;
 
 import java.util.Scanner;
 
-import static CeaserCipher.Decryption.decrypt;
-import static CeaserCipher.Encryption.encrypt;
+import static CeaserCipher.Decryption.decryption;
+import static CeaserCipher.Encryption.encryption;
 
 public class App {
     public static void main(String[] args) {
