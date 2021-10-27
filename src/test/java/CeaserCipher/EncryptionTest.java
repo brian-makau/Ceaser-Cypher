@@ -2,21 +2,11 @@ package CeaserCipher;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class EncryptionTest {
 
     @Test
-    public void encryption(String userInput, int i) {
-            Encryption testEncryption = new Encryption();
-            String expectedOutput = "Please input a key between 1 and 25";
-            assertEquals(expectedOutput, encryption_testuserInputLetter_String("svddvfrvs");
+    public void encryption() {
     }
-    @Test
-    public void encryption_testuserInputLetter_String(){
-            Encryption testEncryption = new Encryption();
-            String expectedOutput = "Brian";
-            assertEquals(expectedOutput, encryption("sfsdcsd"));
-    }
-
 }
