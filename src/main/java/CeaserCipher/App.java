@@ -19,8 +19,8 @@ public class App {
         System.out.println("Here is your result");
         System.out.println(result);
 
-        String secondResult = (decryption(result, shiftKey));
+        String deciphered = (decryption(result, shiftKey));
         System.out.println("This is your decrypted text");
-        System.out.println(secondResult);
+        System.out.println(deciphered);
     }
 }
